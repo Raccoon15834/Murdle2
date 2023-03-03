@@ -1,0 +1,131 @@
+<vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:name="vector"
+    android:width="442dp"
+    android:height="410dp"
+    android:viewportWidth="442"
+    android:viewportHeight="410">
+    <path
+        android:name="deltoid1" android:pathData="M 79.026 141.406 L 67.936 146.026 L 49.906 148.336 L 35.126 157.116 L 24.956 171.446 L 25.416 189.006 L 25.416 205.636 L 36.506 199.636 L 56.376 200.556 L 67.006 198.246 L 74.406 188.536 L 79.946 174.676 L 87.806 163.586 L 93.806 160.816 L 79.026 141.406 Z" android:fillColor="#ffffff" android:fillAlpha="0.5" android:strokeColor="#ffffff" android:strokeAlpha="0.5" android:strokeWidth="9.25" android:strokeLineCap="round"/>
+    <path
+        android:name="trapezius1"
+        android:pathData=" M 83.951 137.438 L 92.871 125.558 L 109.951 115.898 L 132.241 112.178 L 144.871 106.978 L 158.241 95.098 L 173.101 75.778 L 173.101 101.778 L 176.071 145.618 L 174.591 175.328 L 178.301 209.508 L 178.301 242.198 L 184.251 261.518 L 183.501 291.228 L 176.071 297.178 L 161.221 282.318 L 156.761 251.108 L 142.641 232.538 L 131.501 220.648 L 121.841 205.788 L 116.641 191.678 L 112.181 177.558 L 106.981 164.188 L 87.661 148.588 L 83.951 137.438 Z" android:fillColor="#ffffff" android:fillAlpha="0.5" android:strokeColor="#ffffff" android:strokeAlpha="0.5" android:strokeWidth="9.25" android:strokeLineCap="round"/>
+    <path
+        android:name="path5" android:pathData=" M 177.563 74.294 L 177.573 74.304Z" android:fillColor="#ffffff" android:fillAlpha="0.5" android:strokeColor="#ffffff" android:strokeAlpha="0.5" android:strokeWidth="9.25" android:strokeLineCap="round"/>
+    <path
+        android:name="trapezius2"
+        android:pathData="M 176.82 83.21 L 195.39 89.15 L 208.02 102.53 L 222.14 112.93 L 236.26 116.64 L 254.83 118.87 L 269.69 129.27 L 265.23 141.16 L 251.86 156.02 L 242.94 172.36 L 229.57 190.19 L 226.6 205.05 L 228.08 222.88 L 219.91 234.77 L 212.48 251.11 L 207.28 271.92 L 206.54 282.32 L 199.85 294.21 L 190.94 295.69 L 189.45 278.6 L 184.99 256.32 L 180.53 236.26 L 180.53 208.02 L 179.05 178.31 L 179.05 101.04 L 176.82 83.21 Z"
+        android:fillColor="#ffffff"
+        android:fillAlpha="0.5"
+        android:strokeColor="#ffffff"
+        android:strokeAlpha="0.5"
+        android:strokeWidth="9.25"
+        android:strokeLineCap="round"/>
+    <path
+        android:name="sternocleidomastoid2" android:pathData=" M 198.369 86.924 L 199.109 74.294 L 191.679 62.404 L 200.599 61.664 L 203.569 83.954 L 208.019 94.354 L 198.369 86.924 Z" android:fillColor="#ffffff" android:fillAlpha="0.5" android:strokeColor="#ffffff" android:strokeAlpha="0.5" android:strokeWidth="9.25" android:strokeLineCap="round"/>
+    <path
+        android:name="sternocleidomastoid1" android:pathData=" M 140.411 63.897 L 146.361 77.267 L 143.391 91.377 L 136.701 101.787 L 148.591 99.557 L 150.821 84.697 L 150.071 62.407 L 140.411 63.897 Z" android:fillColor="#ffffff" android:fillAlpha="0.5" android:strokeColor="#ffffff" android:strokeAlpha="0.5" android:strokeWidth="9.25" android:strokeLineCap="round"/>
+    <path
+        android:name="tricep1" android:pathData=" M 23.029 223.631 L 37.149 211.001 L 57.209 209.511 L 66.119 211.001 L 69.839 233.281 L 73.549 245.911 L 85.439 257.061 L 70.579 271.921 L 61.659 283.801 L 51.259 289.751 L 43.829 298.661 L 42.349 283.061 L 36.399 271.171 L 35.659 260.031 L 25.999 246.661 L 20.059 235.511 L 23.029 223.631 Z" android:fillColor="#ffffff" android:fillAlpha="0.5" android:strokeColor="#ffffff" android:strokeAlpha="0.5" android:strokeWidth="9.25" android:strokeLineCap="round"/>
+    <path
+        android:name="latissimusDorsi1" android:pathData=" M 75.039 213.965 L 80.239 237.735 L 89.899 251.115 L 98.809 261.515 L 109.219 274.885 L 116.639 291.975 L 120.359 308.315 L 126.299 323.175 L 138.929 331.345 L 153.789 341.755 L 167.159 351.405 L 176.079 362.555 L 186.479 367.015 L 189.449 339.525 L 185.739 328.375 L 185.739 312.035 L 177.569 300.145 L 168.649 291.235 L 158.249 277.855 L 154.529 256.315 L 146.359 240.715 L 135.959 230.305 L 126.299 218.425 L 98.809 218.425 L 75.039 213.965 Z" android:fillColor="#ffffff" android:fillAlpha="0.5" android:strokeColor="#ffffff" android:strokeAlpha="0.5" android:strokeWidth="9.25" android:strokeLineCap="round"/>
+    <path
+        android:name="latissimusDorsi2" android:pathData="M 190.931 364.043 L 210.251 361.073 L 225.111 347.693 L 228.081 335.063 L 237.741 318.723 L 248.141 309.803 L 254.831 294.203 L 253.341 272.663 L 262.261 257.053 L 275.631 238.483 L 283.061 228.083 L 294.951 209.513 L 294.951 190.193 L 277.121 199.853 L 262.261 205.793 L 243.681 209.513 L 229.571 212.483 L 228.821 228.823 L 220.651 235.513 L 210.991 250.373 L 210.991 265.233 L 208.021 280.093 L 205.051 289.743 L 196.881 300.153 L 189.451 303.123 L 187.221 317.233 L 187.221 328.383 L 187.961 349.183 L 190.931 364.043 " android:fillColor="#ffffff" android:fillAlpha="0.5" android:strokeColor="#ffffff" android:strokeAlpha="0.5" android:strokeWidth="9.25" android:strokeLineCap="round"/>
+    <path
+        android:name="deltoid2" android:pathData=" M 245.166 173.844 L 269.686 176.824 L 289.746 171.624 L 300.896 159.734 L 309.806 150.074 L 323.926 143.384 L 326.896 132.244 L 313.526 123.324 L 304.606 106.984 L 274.146 106.984 L 262.256 109.954 L 254.826 113.674 L 266.716 124.814 L 269.686 134.474 L 257.796 147.104 L 250.376 154.534 L 241.456 164.194 L 245.166 173.844 " android:fillColor="#ffffff" android:fillAlpha="0.5" android:strokeColor="#ffffff" android:strokeAlpha="0.5" android:strokeWidth="9.25" android:strokeLineCap="round"/>
+     <path
+        android:name="bicepBrachii2"
+        android:pathData="M 309.807 156.018 L 320.207 149.328 L 329.867 142.648 L 326.147 126.298 L 341.007 123.328 L 361.067 128.528 L 370.727 138.188 L 378.157 142.648 L 385.587 148.588 L 378.157 161.958 L 371.467 173.108 L 357.357 179.788 L 345.467 181.278 L 332.837 176.818 L 318.727 167.908 L 309.807 156.018 Z"
+        android:fillColor="#ffffff"
+        android:fillAlpha="0.5"
+        android:strokeColor="#ffffff"
+        android:strokeAlpha="0.5"
+        android:strokeWidth="9.25"
+        android:strokeLineCap="round"/>
+    <path
+        android:name="tricep2" android:pathData="M 309.684 166.78 L 302.524 175.65 L 302.524 188.95 L 327.764 189.97 L 350.954 195.09 L 359.484 195.09 L 374.144 193.72 L 389.834 189.97 L 400.064 182.47 L 407.574 178.38 L 416.094 172.24 L 402.454 170.87 L 390.174 173.6 L 379.604 175.65 L 373.464 182.47 L 356.754 183.83 L 337.994 183.15 L 321.624 175.99 L 309.684 166.78 Z" android:fillColor="#ffffff" android:fillAlpha="0.5" android:strokeColor="#ffffff" android:strokeAlpha="0.5" android:strokeWidth="9.25" android:strokeLineCap="round"/>
+    <path
+        android:name="anconeus2" android:pathData=" M 382.333 168.83 L 388.813 157.57 L 392.903 147 L 397.683 144.27 L 404.163 146.32 L 409.963 153.14 L 411.323 157.23 L 415.073 167.12 L 401.433 167.46 L 388.133 170.19 L 382.333 168.83 Z" android:fillColor="#ffffff" android:fillAlpha="0.5" android:strokeColor="#ffffff" android:strokeAlpha="0.5" android:strokeWidth="9.25" android:strokeLineCap="round"/>
+    <path
+        android:name="brachioradialis2" android:pathData=" M 381.652 73.67 L 378.242 93.11 L 372.102 101.3 L 369.372 105.39 L 365.962 113.23 L 365.962 130.63 L 375.512 136.08 L 376.872 120.4 L 379.942 106.41 C 381.542 100.39 384.722 88.34 384.722 88.34 L 381.652 73.67 Z" android:fillColor="#ffffff" android:fillAlpha="0.5" android:strokeColor="#ffffff" android:strokeAlpha="0.5" android:strokeWidth="9.25" android:strokeLineCap="round"/>
+    <path
+        android:name="extensorCarpiRadialisBrevis7Longus2"
+        android:pathData="M 377.214 137.108 L 390.174 144.948 L 392.564 133.018 L 392.564 103.338 L 389.154 88.678 L 388.134 67.868 L 380.964 56.958 L 384.034 93.788 L 379.264 111.188 L 377.904 119.718 L 376.194 128.238 L 377.214 137.108 Z"
+        android:fillColor="#ffffff"
+        android:fillAlpha="0.5"
+        android:strokeColor="#ffffff"
+        android:strokeAlpha="0.5"
+        android:strokeWidth="4.5"
+        android:strokeLineCap="round"/>
+    <path
+        android:name="extensorDigitorum2"
+        android:pathData="M 393.02 143.104 L 400.62 138.264 L 406.84 136.194 L 404.77 117.184 L 403.04 96.094 L 404.42 84.344 L 403.39 70.174 L 397.86 58.764 L 394.4 50.124 L 385.41 41.824 L 380.92 38.714 L 376.08 43.204 L 385.76 51.504 L 389.22 62.224 L 391.63 72.244 L 390.94 82.264 L 392.33 91.944 L 394.05 102.664 L 394.75 111.304 L 393.02 124.094 L 391.29 135.154 L 393.02 143.104 Z"
+        android:fillColor="#ffffff"
+        android:fillAlpha="0.5"
+        android:strokeColor="#ffffff"
+        android:strokeAlpha="0.5"
+        android:strokeWidth="4.5"
+        android:strokeLineCap="round"/>
+    <path
+        android:name="extensorDigitiMinimi2"
+        android:pathData="M 406.843 137.571 L 412.033 148.291 L 415.833 154.161 L 416.523 133.771 L 417.563 113.721 L 419.983 98.861 L 419.983 90.911 L 417.903 76.391 L 413.753 65.331 L 408.223 48.741 L 402.003 35.951 L 395.093 31.801 L 388.183 32.841 L 385.413 38.021 L 394.053 47.351 L 397.853 54.271 L 400.623 61.181 L 405.463 72.931 L 404.083 87.451 L 404.083 99.551 L 406.153 118.221 L 406.153 127.551 L 406.843 137.571 Z"
+        android:fillColor="#ffffff"
+        android:fillAlpha="0.5"
+        android:strokeColor="#ffffff"
+        android:strokeAlpha="0.5"
+        android:strokeWidth="4.5"
+        android:strokeLineCap="round"/>
+    <path
+        android:name="extensorDigotrumUlnaris2"
+        android:pathData="M 415.831 156.934 L 418.601 168.334 L 422.051 170.414 L 426.551 143.454 L 426.551 123.744 L 426.891 105.424 L 422.051 96.094 L 418.941 110.954 L 417.211 131.004 L 415.831 156.934 Z"
+        android:fillColor="#ffffff"
+        android:fillAlpha="0.5"
+        android:strokeColor="#ffffff"
+        android:strokeAlpha="0.5"
+        android:strokeWidth="4.5"
+        android:strokeLineCap="round"/>
+    <path
+        android:name="path_10"
+        android:pathData="M 141.96 58.358 L 138.41 45.348 L 136.83 33.128 L 140.77 23.268 L 146.69 15.778 L 154.97 9.068 L 166.01 7.098 L 176.26 7.488 L 185.73 8.678 L 194.4 14.588 L 200.71 24.838 L 203.86 36.668 L 203.86 46.138 L 199.92 55.208 L 198.34 59.538 M 207.017 37.461 L 208.197 47.711 L 208.197 56.391 L 210.567 61.121 L 205.047 63.881 M 136.041 42.587 L 133.671 52.447 L 133.671 62.697 L 133.281 69.797 L 139.981 67.037 M 156.541 35.095 L 153.391 46.535 M 153.394 33.912 L 151.814 39.042"
+        android:strokeColor="#ffffff"
+        android:strokeAlpha="0.6"
+        android:strokeWidth="1.5"
+        android:strokeLineCap="round"/>
+    <path
+        android:name="path5A" android:pathData="M 152.603 65.064 L 160.493 60.724 L 170.743 58.754 L 177.443 59.544 M 158.123 72.559 L 170.743 72.949 L 182.573 70.189 M 188.091 68.612 L 188.881 75.312 L 191.241 80.832 M 163.248 75.315 L 154.968 85.965 M 184.148 113.959 L 193.608 127.369 M 194.795 115.931 L 199.925 136.041 L 203.475 139.591 M 201.893 123.423 L 205.833 144.713 M 205.442 135.252 L 214.512 143.932 M 205.836 129.732 L 210.966 136.832 M 214.905 136.435 L 218.845 142.345 L 228.315 151.025 M 165.218 111.593 L 158.118 127.363 L 152.208 134.073 M 151.42 123.423 L 145.11 141.563 " android:strokeColor="#ffffff" android:strokeAlpha="0.6" android:strokeWidth="1.5" android:strokeLineCap="round"/>
+    <path
+        android:name="path5B" android:pathData="M 145.502 128.155 L 129.732 145.115 M 143.134 125.394 L 125.394 139.194 M 133.675 151.421 L 140.775 138.801 M 145.505 144.716 L 171.925 169.166 M 144.716 152.208 L 161.276 173.898 L 173.106 192.038 M 167.587 149.842 L 174.687 160.092 M 169.953 132.098 L 170.743 149.058 M 166.009 159.306 L 173.499 167.196 M 157.729 162.461 L 175.869 178.631 M 168.77 179.022 L 177.84 186.122 M 169.164 169.558 L 174.684 188.088 M 163.644 177.445 L 174.294 203.475 M 166.404 194.006 L 177.444 210.966 " android:strokeColor="#ffffff" android:strokeAlpha="0.6" android:strokeWidth="1.5" android:strokeLineCap="round"/>
+    <path
+        android:name="path5C" android:pathData="M 167.192 204.653 C 169.952 210.303 175.472 221.613 175.472 221.613 M 170.347 230.678 L 180.207 243.298 M 173.896 229.101 L 178.626 248.031 M 203.473 155.757 L 197.163 164.437 L 192.823 173.497 L 187.303 178.627 M 197.945 151.814 L 192.035 165.614 M 189.671 165.221 L 185.331 172.321 M 186.509 173.107 L 180.599 180.997 M 183.36 197.552 L 189.27 181.782 M 184.543 223.187 L 192.033 214.117 M 189.667 210.962 L 184.937 221.612 M 187.298 225.946 L 184.148 236.596 M 188.087 135.252 L 184.937 158.512 M 193.214 153.391 L 186.514 163.641 M 179.812 259.069 L 176.262 265.379 M 180.203 265.773 L 172.713 278.393 " android:strokeColor="#ffffff" android:strokeAlpha="0.6" android:strokeWidth="1.5" android:strokeLineCap="round"/>
+    <path
+        android:name="path5D" android:pathData="M 173.896 286.276 L 181.786 272.476 M 173.896 281.542 L 180.996 269.322 M 166.798 306.387 L 181.778 283.517 M 185.726 251.183 L 202.286 279.183 M 187.303 269.716 L 193.613 276.416 M 191.64 266.956 L 201.1 285.096 M 192.823 284.306 L 200.713 295.346 M 241.719 242.504 L 264.589 227.524 M 267.346 233.833 L 260.646 244.483 L 253.546 252.363 L 249.606 254.733 M 240.142 267.743 L 253.152 260.643 L 259.862 255.913 C 261.962 253.413 266.172 248.423 266.172 248.423 M 193.612 301.656 L 209.382 311.906 " android:strokeColor="#ffffff" android:strokeAlpha="0.6" android:strokeWidth="1.5" android:strokeLineCap="round"/>
+    <path
+        android:name="path5E" android:pathData="M 204.259 300.868 L 207.019 315.458 L 212.939 320.588 M 189.274 308.754 L 206.234 319.004 M 191.246 313.486 L 202.686 329.256 L 207.016 331.226 M 192.035 325.315 L 198.345 328.865 M 174.686 300.868 L 166.006 318.608 L 159.306 323.348 M 178.625 306.388 L 165.615 328.868 M 164.826 322.945 L 180.206 317.035 M 164.826 330.052 L 179.026 322.952 L 185.326 318.612" android:strokeColor="#ffffff" android:strokeAlpha="0.6" android:strokeWidth="1.5" android:strokeLineCap="round"/>
+    <path
+        android:name="path6A" android:pathData="M 166.009 334.781 L 177.839 320.191 L 184.149 310.331 M 111.593 279.18 L 123.033 283.52 M 112.776 277.208 L 128.156 279.178 M 106.861 270.11 L 125.001 273.26 M 96.609 255.126 L 118.689 268.536 M 108.438 238.565 L 116.718 242.505 L 122.638 244.085 M 107.65 268.533 L 117.11 271.683 " android:strokeColor="#ffffff" android:strokeAlpha="0.6" android:strokeWidth="1.5" android:strokeLineCap="round"/>
+    <path
+        android:name="path6B" android:pathData="M 250.394 310.331 L 251.184 333.201 L 254.334 343.851 L 253.544 365.141 L 256.304 373.031 M 244.874 359.227 L 247.244 366.327 M 251.972 364.748 L 258.672 377.368 M 243.297 371.845 L 252.757 378.945 L 259.067 381.305 M 259.069 385.252 L 262.219 399.452 M 216.483 373.423 L 236.593 390.383 L 241.723 391.563 " android:strokeColor="#ffffff" android:strokeAlpha="0.6" android:strokeWidth="1.5" android:strokeLineCap="round"/>
+    <path
+        android:name="path6C" android:pathData="M 223.58 372.24 L 238.96 382.1 M 229.89 376.183 L 242.51 378.553 L 249.21 378.553 M 246.845 389.59 L 250.395 393.93 M 156.543 365.928 L 149.443 371.058 L 150.633 364.748 L 142.353 375.788 L 126.183 381.308 M 136.433 365.536 L 128.943 374.606 M 128.94 368.695 L 130.52 359.225 L 130.52 343.455 L 127.76 325.315" android:strokeColor="#ffffff" android:strokeAlpha="0.6" android:strokeWidth="1.5" android:strokeLineCap="round"/>
+    <path
+        android:name="path7A" android:pathData="M 127.76 385.647 L 136.04 372.637 L 137.22 368.297 M 136.83 372.632 L 144.72 359.222 L 147.87 353.312 M 64.911 147 L 53.311 154.81 L 47.731 165.74 L 44.171 172.88 L 37.921 176.44 M 49.297 166.631 L 63.577 151.461 M 60.004 171.317 L 74.504 157.707 M 66.7 166.183 L 62.68 174.433 L 47.29 197.413 M 56.883 169.529 L 47.513 194.959 M 96.364 169.975 L 106.404 180.455 L 115.544 185.365 M 105.285 169.083 L 97.925 198.303 M 111.752 177.337 C 109.972 182.687 106.402 193.397 106.402 193.397 " android:strokeColor="#ffffff" android:strokeAlpha="0.6" android:strokeWidth="1.5" android:strokeLineCap="round"/>
+    <path
+        android:name="path7B" android:pathData="M 85.211 184.475 L 95.691 205.225 L 107.961 214.815 M 77.404 208.347 L 86.774 204.997 M 38.064 225.963 L 46.864 247.743 M 44.224 219.362 L 44.224 226.402 M 49.944 222.222 C 47.594 228.892 42.904 242.242 42.904 242.242 M 40.704 235.644 L 40.704 246.424 L 35.424 255.224 M 46.864 280.086 L 43.344 266.666 L 43.344 259.846 M 41.364 247.965 L 39.824 269.745 M 47.085 253.245 L 56.545 268.865 M 65.787 257.646 L 65.347 271.946 " android:strokeColor="#ffffff" android:strokeAlpha="0.6" android:strokeWidth="1.5" android:strokeLineCap="round"/>
+    <path
+        android:name="path7C" android:pathData="M 30.362 262.046 L 24.642 280.526 L 23.982 295.046 L 24.422 310.886 L 22.442 326.736 L 20.902 341.476 L 21.782 353.136 L 25.302 359.516 M 27.943 348.295 L 32.123 367.215 M 31.023 311.991 L 34.323 321.231 L 38.943 324.531 L 43.783 321.231 M 49.285 315.952 L 53.465 365.452 M 56.545 316.392 L 45.985 333.332 M 48.844 333.773 L 44.664 348.733 M 54.345 328.712 L 56.985 323.212 M 60.946 311.771 L 67.986 323.651 " android:strokeColor="#ffffff" android:strokeAlpha="0.6" android:strokeWidth="1.5" android:strokeLineCap="round"/>
+    <path
+        android:name="path7D" android:pathData="M 63.586 316.392 L 62.486 326.732 L 65.346 335.532 M 63.806 330.913 L 64.906 364.133 M 89.108 259.406 L 79.208 286.026 L 79.428 307.146 M 71.727 293.949 L 76.347 305.609 L 77.227 322.549 L 77.007 345.659 L 69.527 361.059 L 67.107 367.219 L 67.107 376.019 M 46.425 390.537 L 54.125 370.737 M 250.267 157.062 L 250.277 157.072 M 250.445 157.417 L 259.335 160.267 M 254.891 151.725 L 276.591 160.975 L 280.331 160.975 " android:strokeColor="#ffffff" android:strokeAlpha="0.6" android:strokeWidth="1.5" android:strokeLineCap="round"/>
+    <path
+        android:name="path7E" android:pathData="M 260.761 151.37 L 279.081 159.2 L 293.671 164.89 M 270.544 155.287 L 279.434 154.927 M 265.03 145.322 L 273.75 145.682 L 277.48 147.452 L 293.31 147.812 M 270.366 143.902 L 280.856 140.342 M 274.28 145.32 L 293.31 144.61 M 270.544 139.981 L 285.134 139.271 L 288.684 137.851 M 269.826 127.657 L 285.946 127.337 M 234.687 186.009 L 244.677 186.649 L 253.707 189.879 L 261.447 190.519 M 255.642 200.835 L 272.732 176.015 " android:strokeColor="#ffffff" android:strokeAlpha="0.6" android:strokeWidth="1.5" android:strokeLineCap="round"/>
+    <path
+        android:name="path7F" android:pathData="M 269.181 188.591 L 277.561 180.851 M 259.188 183.752 L 262.738 178.272 M 248.549 177.95 L 253.059 179.88 M 248.872 199.553 L 258.222 194.713 M 326.564 169.247 L 340.744 166.667 M 348.485 135.719 L 362.025 135.719 M 338.491 162.153 L 355.581 165.373 M 348.807 169.89 L 360.087 164.41 M 356.867 170.856 L 363.317 167.956 M 365.248 160.867 L 386.528 154.417 " android:strokeColor="#ffffff" android:strokeAlpha="0.6" android:strokeWidth="1.5" android:strokeLineCap="round"/>
+    <path
+        android:name="path7G" android:pathData="M 364.603 164.088 L 374.923 164.728 M 373.523 46.818 L 366.793 41.428 L 365.443 46.818 L 368.813 54.568 M 347.592 48.164 L 357.692 60.294 M 350.96 57.595 L 360.73 60.965 M 347.929 65.005 L 356.689 70.395 L 362.409 68.705 M 356.686 75.113 L 368.816 75.443 L 377.566 60.963 L 374.876 73.763 M 353.991 77.13 L 359.041 77.8 M 384.304 27.955 L 367.124 25.935 L 352.644 30.315 L 344.224 43.785 M 344.561 42.102 L 338.161 51.192 L 338.501 63.662" android:strokeColor="#ffffff" android:strokeAlpha="0.6" android:strokeWidth="1.5" android:strokeLineCap="round"/>
+    <path
+        android:name="path_14"
+        android:pathData="M 339.171 56.922 L 347.251 83.192 L 351.971 83.532 M 358.37 82.518 L 367.46 86.558 L 379.59 78.478 M 392.885 31.526 L 374.595 25.346"
+        android:strokeColor="#ffffff"
+        android:strokeAlpha="0.6"
+        android:strokeWidth="1.5"
+        android:strokeLineCap="round"/>
+</vector>

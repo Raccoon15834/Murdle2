@@ -1,0 +1,80 @@
+buildscript {
+    dependencies {
+        classpath "io.realm:realm-gradle-plugin:10.11.1"
+    }
+}
+//CHANGES:
+// IN ORDER TO GET ALL OF KOTLIN STUFF, ADDED 2ND&3RD PLUGIN
+//THEN, TO GET REALM-ANDROID PLUGIN WORKING, ADDED BUILDSCRIPT DEPENDENCY FIRST, not at bottom
+//but do we even need realm-android??plugin
+plugins {
+    id 'com.android.application'
+    id "org.jetbrains.kotlin.android" version "1.6.20"
+    id "org.jetbrains.kotlin.android.extensions" version "1.4.21"
+//    id 'realm-android'
+//    id 'com.android.library'
+//    id 'org.jetbrains.kotlin.android'
+//    id "org.jetbrains.kotlin.kapt"
+}
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+apply plugin: 'kotlin-kapt'
+apply plugin: 'realm-android'
+
+android {
+    namespace 'com.example.murdle2'
+    compileSdk 32
+
+    defaultConfig {
+        applicationId "com.example.murdle2"
+        minSdk 21
+        targetSdk 32
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        //compile.exclude group: "junit", module: "junit"
+    }
+
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+//last line OF GRADLE.PROP TO GET RID OF INOTIFICATION DUPLICATE ERROR
+//ADDED THIS IN ORDER TO GET RID OF HAMCREST DUPLICATE ERROR
+configurations.all {
+    resolutionStrategy.dependencySubstitution {
+        substitute module('org.hamcrest:hamcrest-core:1.1') with module('junit:junit:4.10')
+    }
+}
+
+dependencies {
+
+    implementation 'androidx.appcompat:appcompat:1.5.1'
+    implementation 'com.google.android.material:material:1.8.0'
+    implementation 'com.googlecode.json-simple:json-simple:1.1.1'// check this one again
+    implementation 'com.google.code.gson:gson:2.10.1'
+    implementation 'com.github.devsideal:VectorChildFinder:1.0.0'
+    //implementation 'io.realm:realm-gradle-plugin:10.11.1'
+    //implementation "org.jetbrains.kotlin:kotlin-gradle-plugin:1.8.0"
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.5'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
+
+
+    // https://mvnrepository.com/artifact/com.googlecode.json-simple/json-simple
+    // https://mvnrepository.com/artifact/io.realm/realm-gradle-plugin
+     implementation 'com.github.devsideal:VectorChildFinder:1.0.0'
+
+}
+
+
+

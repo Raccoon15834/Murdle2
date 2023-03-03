@@ -1,0 +1,67 @@
+<vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:name="vector"
+    android:width="442dp"
+    android:height="410dp"
+    android:viewportWidth="442"
+    android:viewportHeight="410">
+
+
+    <path
+        android:name="path_10"
+        android:pathData="M 184.638 186.549 L 180.188 201.809 L 179.558 217.059 L 179.558 231.689 L 178.288 245.039 L 174.468 257.119 L 161.118 276.189 L 157.938 293.349 L 154.128 316.239 L 156.038 326.409 L 146.498 339.119 M 127.42 262.196 L 129.33 286.356 L 131.24 307.336 L 124.88 324.496 L 126.15 332.766 M 135.053 318.779 L 129.333 334.669 L 117.253 353.749 L 106.443 365.819 L 100.723 377.899 L 109.623 388.709 L 119.793 394.429 M 152.853 332.128 L 156.033 346.748 L 149.673 353.108"
+        android:strokeColor="#ffffff"
+        android:strokeAlpha="0.6"
+        android:strokeWidth="1.5"
+        android:strokeLineCap="round"/>
+    <path
+        android:name="path_11"
+        android:pathData="M 150.946 336.58 L 149.036 355.65 L 146.496 370.91 L 147.766 382.35 L 133.146 395.07 L 121.066 395.7 M 168.744 220.878 L 173.834 211.338 M 241.854 248.847 L 248.214 273.007 L 245.664 289.537 L 241.854 299.707 M 248.218 293.347 L 243.128 300.977 L 243.128 308.607 L 250.118 316.237 M 244.397 311.149 L 241.217 325.139 L 241.217 332.759 L 248.207 336.579 L 264.107 335.939"
+        android:strokeColor="#ffffff"
+        android:strokeAlpha="0.6"
+        android:strokeWidth="1.5"
+        android:strokeLineCap="round"/>
+    <path android:name="path1" android:pathData="M 259.658 331.497 L 274.278 340.397 L 285.718 344.207 L 302.248 342.297 L 317.508 339.757 L 323.868 335.307 L 324.498 328.947 L 305.428 323.867 L 290.808 307.967 L 278.098 295.897 L 268.558 290.807 M 262.201 302.251 L 270.461 297.161 M 273.642 292.076 L 274.912 276.186 M 293.987 75.928 L 296.527 111.528 L 292.077 133.778 L 283.817 147.768 L 281.907 159.848 L 282.547 176.378 M 179.552 8.544 L 194.812 19.984 M 166.838 14.263 L 165.568 7.273 M 286.357 29.52 L 283.177 16.17 L 283.177 9.18 M 166.989 129.078 L 166.989 137.868 M 174.134 165.889 L 180.174 158.749" android:strokeColor="#ffffff" android:strokeAlpha="0.6" android:strokeWidth="1.5" android:strokeLineCap="round"/>
+    <path android:name="path1" android:pathData="M 186.767 162.045 L 180.727 169.185 M 280.174 48.857 L 282.924 69.187 M 284.574 93.364 L 279.074 119.184 L 269.734 141.164 M 259.294 102.705 L 254.904 117.545 L 253.804 130.175 M 252.623 73.52 L 251.203 91.29 L 251.203 112.61 M 152.409 214.956 L 149.569 236.276 M 155.255 230.59 L 148.855 246.94 M 135.351 210.689 L 131.091 235.569 M 244.097 207.849 L 248.357 219.929 M 149.001 189.863 L 149.001 203.143 L 153.601 207.223" android:strokeColor="#ffffff" android:strokeAlpha="0.6" android:strokeWidth="1.5" android:strokeLineCap="round"/>
+    <path android:name="path1" android:pathData="M 168.412 189.348 L 167.902 199.048 L 163.812 207.228 M 159.73 179.135 L 154.62 191.395 M 145 183 L 145 198 M 274.388 159.774 L 266.748 166.934 L 265.788 175.054 L 265.788 182.694 M 273.431 162.638 L 277.251 164.548 M 277.827 164.596 L 278.587 176.036 M 270.201 168.411 L 270.201 190.901 M 269.509 171.062 L 266.569 176.412 M 271.117 158.486 L 267.367 161.166 M 263.569 175.511 L 267.419 192.021 M 282.83 176.611 L 282.84 176.621 M 278.429 183.215 L 269.619 196.975 M 61 35 L 61.01 35.0" android:strokeColor="#ffffff" android:strokeAlpha="0.6" android:strokeWidth="1.5" android:strokeLineCap="round"/>
+    <path
+        android:name="extensorDigitorumLongus4"
+        android:pathData="M 144.271 195.28 L 146.941 213.93 L 143.131 246.67 L 138.561 275.22 L 141.601 318.99 L 133.991 313.66 L 131.711 295.01 L 126.761 267.61 L 129.801 248.19 L 131.331 224.97 L 144.271 195.28"
+        android:fillColor="#ffffff"
+        android:fillAlpha="0.5"
+        android:strokeColor="#ffffff"
+        android:strokeAlpha="0.5"
+        android:strokeWidth="9.25"
+        android:strokeLineCap="round"/>
+    <path
+        android:name="adductorMagnus1"
+        android:pathData="M 175.728 148.308 L 190.608 136.218 L 198.048 119.478 L 206.878 91.118 L 223.148 67.408 L 226.868 57.648 L 213.388 59.968 L 193.398 99.028 L 176.658 119.948 L 170.618 129.708 L 172.938 144.118"
+        android:fillColor="#ffffff"
+        android:fillAlpha="0.5"
+        android:strokeColor="#ffffff"
+        android:strokeAlpha="0.5"
+        android:strokeWidth="9.25"
+        android:strokeLineCap="round"/>
+    <path android:name="adductorBrevis1" android:pathData="M 171.073 122.273 L 170.153 100.423 L 185.953 90.183 L 201.763 71.593 L 215.713 56.713 L 225.473 54.393 L 206.873 79.963 L 188.743 105.533 L 171.073 122.273 Z" android:fillColor="#ffffff" android:fillAlpha="0.5" android:strokeColor="#ffffff" android:strokeAlpha="0.5" android:strokeWidth="9.25" android:strokeLineCap="round"/>
+    <path android:name="obturatorExternus1" android:pathData="M 225.479 52.072 L 207.349 36.722 L 196.649 36.262 L 190.609 54.392 L 205.019 53.932 L 225.479 52.072 Z" android:fillColor="#ffffff" android:fillAlpha="0.5" android:strokeColor="#ffffff" android:strokeAlpha="0.5" android:strokeWidth="9.25" android:strokeLineCap="round"/>
+    <path android:name="pectineus1" android:pathData="M 170.618 95.768 L 172.478 76.248 L 214.788 57.648 L 187.818 86.008 L 170.618 95.768 Z" android:fillColor="#ffffff" android:fillAlpha="0.5" android:strokeColor="#ffffff" android:strokeAlpha="0.5" android:strokeWidth="9.25" android:strokeLineCap="round"/>
+    <path android:name="extensorHallucisLongus1" android:pathData="M 275 237 L 260 274 L 253 298 L 264 310 L 272 283 L 275 237 Z" android:fillColor="#ffffff" android:fillAlpha="0.5" android:strokeColor="#ffffff" android:strokeAlpha="0.5" android:strokeWidth="9.25" android:strokeLineCap="round"/>
+    <path android:name="semimembranosus4" android:pathData="M 224 109 L 236 145 L 240 165 L 248 184 L 249 132 L 244 108 L 231 91 L 224 109 Z" android:fillColor="#ffffff" android:fillAlpha="0.5" android:strokeColor="#ffffff" android:strokeAlpha="0.5" android:strokeWidth="9.25" android:strokeLineCap="round"/>
+    <path android:name="extensorHallucisLongus2" android:pathData="M 139.32 265.702 L 151.13 275.982 L 154.93 302.252 L 146.56 338.402 L 141.23 309.862 L 139.32 285.872 L 139.32 265.702 Z" android:fillColor="#ffffff" android:fillAlpha="0.5" android:strokeColor="#ffffff" android:strokeAlpha="0.5" android:strokeWidth="9.25" android:strokeLineCap="round"/>
+    <path android:name="adductorLongus1" android:pathData="M 182.707 179.921 L 178.057 150.631 L 187.867 138.571 L 207.807 92.981 L 219.437 71.591 L 225.477 64.621 L 220.827 93.441 L 205.947 130.171 L 200.377 145.981 L 195.257 165.501 L 182.707 179.921 Z" android:fillColor="#ffffff" android:fillAlpha="0.5" android:strokeColor="#ffffff" android:strokeAlpha="0.5" android:strokeWidth="9.25" android:strokeLineCap="round"/>
+
+    <path
+        android:name="path_18"
+        android:pathData="M 161.12 83.222 L 151.8 111.852 L 145.14 133.152 L 147.8 161.122 M 167.779 42.61 L 157.119 66.58 L 153.129 91.21 M 161 278 L 157 253 L 160 237"
+        android:strokeColor="#ffffff"
+        android:strokeAlpha="0.6"
+        android:strokeWidth="1.5"
+        android:strokeLineCap="round"/>
+    <path
+        android:name="path_19"
+        android:pathData="M 142 193 L 141 172 L 138 144 L 140 91 L 148 60 L 155 34 L 158 19 L 161 8 M 271 75 L 278 101 M 254 197 L 264 214 L 266 230 M 277 232 L 279 216 M 152.614 179.59 L 158.514 170.32 M 149.587 187.608 L 154.547 181.818 M 249.447 256.14 L 240.507 244.23 L 233.807 230.08 L 230.827 212.96 L 233.807 200.3 L 239.767 183.92 L 238.277 168.28 M 278.481 242.736 L 282.951 209.976 L 282.951 189.126 L 281.461 175.726 M 295.606 80.414 L 293.376 52.864 L 287.416 29.784"
+        android:strokeColor="#ffffff"
+        android:strokeAlpha="0.6"
+        android:strokeWidth="1.5"
+        android:strokeLineCap="round"/>
+</vector>

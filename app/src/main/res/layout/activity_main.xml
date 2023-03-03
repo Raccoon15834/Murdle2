@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/bkg_svg">
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        android:id="@+id/bar">
+
+    </androidx.appcompat.widget.Toolbar>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/bar"
+        android:src="@drawable/back_deep"
+        android:id="@+id/gameWindowBkg"
+        android:alpha="0.5" />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/bar"
+        android:src="@drawable/back_sup2"
+        android:id="@+id/gameWindow" />
+<!--    <android.widget.Button-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:id="@+id/guessBtn"-->
+<!--        android:text="guess"-->
+<!--        app:layout_constraintLeft_toLeftOf="parent"-->
+<!--        app:layout_constraintRight_toRightOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@id/gameWindow"-->
+<!--        style="@style/buttonStyle" />-->
+    <ScrollView
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        app:layout_constraintTop_toBottomOf="@id/gameWindow"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:orientation="vertical"
+        android:paddingTop="10dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/guessesScroll"
+            android:orientation="vertical"
+            android:layout_marginLeft="10dp"/>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
