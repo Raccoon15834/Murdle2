@@ -21,6 +21,7 @@ import org.jgrapht.alg.shortestpath.DijkstraShortestPath;
 import org.jgrapht.graph.DefaultEdge;
 
 import java.util.LinkedList;
+import java.util.List;
 
 //import io.realm.gradle.Realm;
 import io.realm.Realm;
@@ -33,10 +34,10 @@ public class AnatomyVIew {//This saves the state of the game
     Realm realm;
     Context ctx;
     ImageView gameWindow;
-    LinkedList<GuessFrag> guessedFrags;
-    FragmentManager ft;
+    //List<GuessFrag> guessedFrags;
+    FragRecyclerViewAdapter frva;
     Resources res;
-    public AnatomyVIew(Realm r, Context ctx, ImageView gameWindow, FragmentManager ft) {
+    public AnatomyVIew(Realm r, Context ctx, ImageView gameWindow, FragRecyclerViewAdapter frva) {
         currSide=1;
         currDrawable = R.drawable.back_sup2;
         guessNum=0;
@@ -44,10 +45,10 @@ public class AnatomyVIew {//This saves the state of the game
         this.realm = r;
         this.ctx = ctx;
         this.gameWindow = gameWindow;
-        this.ft = ft;
+        this.frva = frva;
         resetScrollView();
         res = ctx.getResources();
-        guessedFrags = new LinkedList<GuessFrag>();
+        //guessedFrags = new LinkedList<GuessFrag>();
         // reset realm\
         realm.executeTransactionAsync( transactionRealm -> {
             RealmResults<MRegion> allofem =  transactionRealm.where(MRegion.class).findAll();
@@ -56,7 +57,7 @@ public class AnatomyVIew {//This saves the state of the game
             }//set random answer
             int randInt = (int)(Math.floor(Math.random()*allofem.size()));
             answer = allofem.get(randInt).getGroup();
-            Log.i("theanswerIS!", answer);
+            //Log.i("theanswerIS!", answer);
         });
     }
     public String getRegion(int x, int y, ImageView im){
@@ -93,31 +94,27 @@ public class AnatomyVIew {//This saves the state of the game
         return "";
         //Then in the main activity if it returned ANYTHING at all- recolor();
     }
-    //when adding fragments always keep record AND add
+    // adding fragments
     public void addGuessFrag(GuessFrag mGF){
-        FragmentTransaction transaction = ft.beginTransaction();
-        transaction.add(R.id.guessesScroll, mGF).commit();
-        Log.i("fragWasAdded", mGF.getName());
+//        FragmentTransaction transaction = ft.beginTransaction();
+//        transaction.add(R.id.guessesScroll, mGF).commit();
+//        Log.i("fragWasAdded", mGF.getName());
+        frva.guessData.add(0, mGF);
+        frva.notifyItemInserted(0);
         //todo add to top
     }
-    public void addToGuessFragList(GuessFrag mGF){
-        guessedFrags.add(mGF);
-    }
-    public void addAllGuessFrag(LinkedList<GuessFrag> mGFs){
-        int i=0, s = mGFs.size();
-        while(i<s){
-            addGuessFrag(mGFs.get(i));
-            i++;
-        }
-    }private void resetScrollView(){
-        if (guessedFrags==null) return;
-         for (Fragment f: guessedFrags){
-             FragmentTransaction transaction = ft.beginTransaction();
-             transaction.remove(f).commit();
-         }
-    }
-    public LinkedList<GuessFrag> getCurrFragList() {
-        return guessedFrags;
+//    public void addToGuessFragList(GuessFrag mGF){
+//        guessedFrags.add(mGF);
+//    }
+//    public void addAllGuessFrag(LinkedList<GuessFrag> mGFs){
+//        int i=0, s = mGFs.size();
+//        while(i<s){
+//            addGuessFrag(mGFs.get(i));
+//            i++;
+//        }
+//    }
+    private void resetScrollView(){
+        frva.clear();
     }
     public String getAnswer() {
         return answer;
@@ -127,7 +124,7 @@ public class AnatomyVIew {//This saves the state of the game
     public int getCurrSide() {return currSide;}
     public void setCurrSide(int currSide) {this.currSide = currSide;}
     public void recolor(){
-        //based on side, search for all the selected. TURN it purple
+        //based on side, search for all the selected. TURN it red
         RealmResults<MRegion> colorRegResults = realm.where(MRegion.class).equalTo("side", currSide)
                 .and().equalTo("wasGroupGuessed",true).findAll();
         //Log.i("howManyInGroup!!!",colorRegResults.size()+"");
@@ -135,26 +132,26 @@ public class AnatomyVIew {//This saves the state of the game
         VectorChildFinder vector = new VectorChildFinder(ctx, currDrawable, gameWindow);
         for(MRegion res: colorRegResults) {
             VectorDrawableCompat.VFullPath path1 = vector.findPathByName(res.getName());
-            //Log.i("oneORegsColored!!!",colorRegResults.get(i).getName());
-            int r= findColorShade(res.getGroup(), answer);
+            //Log.i("oneORegsColored!!!",res.getName());
+            int r= findColorShade(res.getGroup());
             path1.setFillColor(r);
         }
 
     }
 
-    private int findColorShade(String group, String answer) {
+    public int findColorShade(String group) {
         DijkstraShortestPath<String, DefaultEdge> dijkstraAlg = new DijkstraShortestPath<>(Murdle2.prox);
         Log.i("whatDijkSees", group+ " "+answer);
         //Log.i("vertexes", Murdle2.prox.vertexSet().toString());
         int distance = dijkstraAlg.getPath(group, answer).getLength();
         Log.i("howfarwasguess",distance+ " far");
         switch (distance){
-            case 0: return res.getColor(R.color.pink);
-            case 1: return res.getColor(R.color.red1);
-            case 2: return res.getColor(R.color.red2);
+            case 0: return res.getColor(R.color.THE_RED);
+            case 1: return res.getColor(R.color.red5);
+            case 2: return res.getColor(R.color.red4);
             case 3: return res.getColor(R.color.red3);
-            case 4: return res.getColor(R.color.red4);
-            default: return res.getColor(R.color.red5);
+            case 4: return res.getColor(R.color.red2);
+            default: return res.getColor(R.color.red1);
         }
         //return Color.RED;
     }
@@ -167,10 +164,3 @@ public class AnatomyVIew {//This saves the state of the game
         this.currDrawable = currDrawable;
     }
 }
-//DETERMINING GUESS NUM
-//if on different top or bottom +10
-//if on different posterior anterior +7
-//ARRAYS OF PROXIMITY each one is 0.5 farther
-/*to-do list
- * return guess number 1 being closest
- * SERERIOUSLY NEED TO RESET REALM WHEN NEW GAME IS CALLED*/

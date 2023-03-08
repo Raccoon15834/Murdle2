@@ -26,7 +26,7 @@
     <path
         android:name="sternocleidomastoid1" android:pathData=" M 140.411 63.897 L 146.361 77.267 L 143.391 91.377 L 136.701 101.787 L 148.591 99.557 L 150.821 84.697 L 150.071 62.407 L 140.411 63.897 Z" android:fillColor="#ffffff" android:fillAlpha="0.5" android:strokeColor="#ffffff" android:strokeAlpha="0.5" android:strokeWidth="9.25" android:strokeLineCap="round"/>
     <path
-        android:name="tricep1" android:pathData=" M 23.029 223.631 L 37.149 211.001 L 57.209 209.511 L 66.119 211.001 L 69.839 233.281 L 73.549 245.911 L 85.439 257.061 L 70.579 271.921 L 61.659 283.801 L 51.259 289.751 L 43.829 298.661 L 42.349 283.061 L 36.399 271.171 L 35.659 260.031 L 25.999 246.661 L 20.059 235.511 L 23.029 223.631 Z" android:fillColor="#ffffff" android:fillAlpha="0.5" android:strokeColor="#ffffff" android:strokeAlpha="0.5" android:strokeWidth="9.25" android:strokeLineCap="round"/>
+        android:name="tricepsBrachii1" android:pathData=" M 23.029 223.631 L 37.149 211.001 L 57.209 209.511 L 66.119 211.001 L 69.839 233.281 L 73.549 245.911 L 85.439 257.061 L 70.579 271.921 L 61.659 283.801 L 51.259 289.751 L 43.829 298.661 L 42.349 283.061 L 36.399 271.171 L 35.659 260.031 L 25.999 246.661 L 20.059 235.511 L 23.029 223.631 Z" android:fillColor="#ffffff" android:fillAlpha="0.5" android:strokeColor="#ffffff" android:strokeAlpha="0.5" android:strokeWidth="9.25" android:strokeLineCap="round"/>
     <path
         android:name="latissimusDorsi1" android:pathData=" M 75.039 213.965 L 80.239 237.735 L 89.899 251.115 L 98.809 261.515 L 109.219 274.885 L 116.639 291.975 L 120.359 308.315 L 126.299 323.175 L 138.929 331.345 L 153.789 341.755 L 167.159 351.405 L 176.079 362.555 L 186.479 367.015 L 189.449 339.525 L 185.739 328.375 L 185.739 312.035 L 177.569 300.145 L 168.649 291.235 L 158.249 277.855 L 154.529 256.315 L 146.359 240.715 L 135.959 230.305 L 126.299 218.425 L 98.809 218.425 L 75.039 213.965 Z" android:fillColor="#ffffff" android:fillAlpha="0.5" android:strokeColor="#ffffff" android:strokeAlpha="0.5" android:strokeWidth="9.25" android:strokeLineCap="round"/>
     <path
@@ -43,7 +43,7 @@
         android:strokeWidth="9.25"
         android:strokeLineCap="round"/>
     <path
-        android:name="tricep2" android:pathData="M 309.684 166.78 L 302.524 175.65 L 302.524 188.95 L 327.764 189.97 L 350.954 195.09 L 359.484 195.09 L 374.144 193.72 L 389.834 189.97 L 400.064 182.47 L 407.574 178.38 L 416.094 172.24 L 402.454 170.87 L 390.174 173.6 L 379.604 175.65 L 373.464 182.47 L 356.754 183.83 L 337.994 183.15 L 321.624 175.99 L 309.684 166.78 Z" android:fillColor="#ffffff" android:fillAlpha="0.5" android:strokeColor="#ffffff" android:strokeAlpha="0.5" android:strokeWidth="9.25" android:strokeLineCap="round"/>
+        android:name="tricepsBrachii2" android:pathData="M 309.684 166.78 L 302.524 175.65 L 302.524 188.95 L 327.764 189.97 L 350.954 195.09 L 359.484 195.09 L 374.144 193.72 L 389.834 189.97 L 400.064 182.47 L 407.574 178.38 L 416.094 172.24 L 402.454 170.87 L 390.174 173.6 L 379.604 175.65 L 373.464 182.47 L 356.754 183.83 L 337.994 183.15 L 321.624 175.99 L 309.684 166.78 Z" android:fillColor="#ffffff" android:fillAlpha="0.5" android:strokeColor="#ffffff" android:strokeAlpha="0.5" android:strokeWidth="9.25" android:strokeLineCap="round"/>
     <path
         android:name="anconeus2" android:pathData=" M 382.333 168.83 L 388.813 157.57 L 392.903 147 L 397.683 144.27 L 404.163 146.32 L 409.963 153.14 L 411.323 157.23 L 415.073 167.12 L 401.433 167.46 L 388.133 170.19 L 382.333 168.83 Z" android:fillColor="#ffffff" android:fillAlpha="0.5" android:strokeColor="#ffffff" android:strokeAlpha="0.5" android:strokeWidth="9.25" android:strokeLineCap="round"/>
     <path
@@ -76,7 +76,7 @@
         android:strokeWidth="4.5"
         android:strokeLineCap="round"/>
     <path
-        android:name="extensorDigotrumUlnaris2"
+        android:name="extensorCarpiUlnaris2"
         android:pathData="M 415.831 156.934 L 418.601 168.334 L 422.051 170.414 L 426.551 143.454 L 426.551 123.744 L 426.891 105.424 L 422.051 96.094 L 418.941 110.954 L 417.211 131.004 L 415.831 156.934 Z"
         android:fillColor="#ffffff"
         android:fillAlpha="0.5"

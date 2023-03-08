@@ -28,6 +28,21 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity"/>
         </activity>
+        <activity android:name=".TransitionActivity"
+            android:label="Transition"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity"/>
+        </activity>
+<!--        <activity android:name=".StatsActivity"-->
+<!--            android:label="Stats"-->
+<!--            android:parentActivityName=".TransitionActivity">-->
+<!--        </activity>-->
+<!--        <activity android:name=".GamePlayActivity"-->
+<!--            android:label="Game Play"-->
+<!--            android:parentActivityName=".TransitionActivity">-->
+<!--        </activity>-->
     </application>
 
 </manifest>

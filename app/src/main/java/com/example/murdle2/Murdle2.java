@@ -38,7 +38,7 @@ public class Murdle2 extends Application {
                 .build();
         Realm.setDefaultConfiguration(realmConfig);
         Realm realm = Realm.getDefaultInstance();
-        Log.i("wasrealmcreated!!!", "realm init made");
+        //Log.i("wasrealmcreated!!!", "realm init made");
 
         prox = new SimpleGraph<>(DefaultEdge.class);
         setUpAdjacencies();
@@ -47,7 +47,9 @@ public class Murdle2 extends Application {
 
     //why wont this work from async trhead
         String hi = readJSONString("myJson2.txt", getApplicationContext());
+
         realm.executeTransaction(transactionRealm -> {
+            //realm.deleteAll();//to reset
             realm.createOrUpdateAllFromJson(MRegion.class, hi);
             //Log.i("wasrealmcreated!!!", "json made");
             //Log.i("wasrealmcreated!!!", realm.where(MRegion.class).findFirst().getGroup());
@@ -58,8 +60,7 @@ public class Murdle2 extends Application {
 
     private void setUpAdjacencies() {
         try {
-            Log.i("wasGraphcreated!!!", "graph made");
-            //Scanner sc = new Scanner(new File("myAdjacencies.txt",getApplicationContext()));
+            //Log.i("wasGraphcreated!!!", "graph made");
             DataInputStream textFileStream = new DataInputStream(getAssets().open(String.format("myAdjacencies.txt")));
             Scanner sc = new Scanner(textFileStream);
             while(sc.hasNext()){

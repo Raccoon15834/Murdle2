@@ -6,41 +6,46 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
+import androidx.recyclerview.widget.RecyclerView;
 
-public class GuessFrag extends Fragment {
+public class GuessFrag  {
     private String name;
-    private String nameDisplay;
-    private int num;
-    private TextView mtxtView;
-    //todo make newinstance as constructor instead
-    // https://guides.codepath.com/android/creating-and-using-fragments
-
-    //todo change order of addition with recyclerViewAdapter
-    public GuessFrag(String name, int num){
+    public String nameDisplay;
+    public int num;
+//    private TextView mtxtView;
+//    private Button colorcode;
+//    //todo make newinstance as constructor instead
+//    // https://guides.codepath.com/android/creating-and-using-fragments
+//
+//    //todo change order of addition with recyclerViewAdapter
+     public GuessFrag(String name, int num){
         this.name= name;
         this.num = num;
         nameDisplay = displayify(name);
-    }
 
-    @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup parent, Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.guessfrag, parent, false);
     }
-
-    @Override
-    public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
-        super.onViewCreated(view, savedInstanceState);
-        mtxtView = view.findViewById(R.id.guessName);
-        mtxtView.setText(nameDisplay);
-        textEntrance();
-    }
-
+//
+//    @Override
+//    public View onCreateView(LayoutInflater inflater, ViewGroup parent, Bundle savedInstanceState) {
+//        return inflater.inflate(R.layout.guessfrag, parent, false);
+//    }
+//
+//    @Override
+//    public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
+//        super.onViewCreated(view, savedInstanceState);
+//        mtxtView = view.findViewById(R.id.guessName);
+//        colorcode.setBackgroundColor(num);
+//
+//        textEntrance();
+//    }
+//
     public static String displayify(String name) {
         String answ = "";
         for(int i=0; i<name.length();i++){
@@ -59,16 +64,11 @@ public class GuessFrag extends Fragment {
     public String getName() {
         return name;
     }
+//
+//    public void textEntrance() {
+//        Animation inL = AnimationUtils.loadAnimation(getContext(), R.anim.inl);
+//        mtxtView.startAnimation(inL);
+//        colorcode.startAnimation(inL);
+//    }
 
-    public void textEntrance() {
-        Animation inL = AnimationUtils.loadAnimation(getContext(), R.anim.inl);
-        mtxtView.startAnimation(inL);
-    }
-    //LONG TERM SOLUTION
-//    getSupportFragmentManager().beginTransaction()
-//        .setCustomAnimations(enter1, exit1, popEnter1, popExit1)
-//        .add(R.id.container, ExampleFragment.class, null) // gets the first animations
-//        .setCustomAnimations(enter2, exit2, popEnter2, popExit2)
-//        .add(R.id.container, ExampleFragment.class, null) // gets the second animations
-//        .commit()
 }

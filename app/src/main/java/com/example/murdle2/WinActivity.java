@@ -14,7 +14,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class WinActivity extends AppCompatActivity {
     TextView winText;
-    String str1 = "The Mystery Muscle Is...\n";
+    String str1 = "the mystery muscle was...\n";
     String tmp;
     Animation inB, outB;
     int numOfClicks;
@@ -34,7 +34,8 @@ public class WinActivity extends AppCompatActivity {
         leaveOption=false;
 
         numOfClicks=0;
-        animateText(gs+" guesses", false);
+        if(gs==1) animateText("1 guess! Its your lucky day!", false);
+        else animateText(gs+" guesses", false);
 
     }
     public void animateText(String s, boolean willSetLeaveOption) {
