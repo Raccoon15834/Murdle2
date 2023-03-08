@@ -1,6 +1,7 @@
 package com.example.murdle2;
 
 import android.content.Context;
+import android.content.res.Resources;
 import android.graphics.Color;
 import android.graphics.Region;
 import android.media.Image;
@@ -15,6 +16,10 @@ import androidx.fragment.app.FragmentTransaction;
 
 import com.devs.vectorchildfinder.VectorChildFinder;
 import com.devs.vectorchildfinder.VectorDrawableCompat;
+
+import org.jgrapht.alg.shortestpath.DijkstraShortestPath;
+import org.jgrapht.graph.DefaultEdge;
+
 import java.util.LinkedList;
 
 //import io.realm.gradle.Realm;
@@ -30,6 +35,7 @@ public class AnatomyVIew {//This saves the state of the game
     ImageView gameWindow;
     LinkedList<GuessFrag> guessedFrags;
     FragmentManager ft;
+    Resources res;
     public AnatomyVIew(Realm r, Context ctx, ImageView gameWindow, FragmentManager ft) {
         currSide=1;
         currDrawable = R.drawable.back_sup2;
@@ -40,6 +46,7 @@ public class AnatomyVIew {//This saves the state of the game
         this.gameWindow = gameWindow;
         this.ft = ft;
         resetScrollView();
+        res = ctx.getResources();
         guessedFrags = new LinkedList<GuessFrag>();
         // reset realm\
         realm.executeTransactionAsync( transactionRealm -> {
@@ -126,12 +133,30 @@ public class AnatomyVIew {//This saves the state of the game
         //Log.i("howManyInGroup!!!",colorRegResults.size()+"");
         // all the vector stuff below
         VectorChildFinder vector = new VectorChildFinder(ctx, currDrawable, gameWindow);
-        for(int i=0; i<colorRegResults.size(); i++) {
-            VectorDrawableCompat.VFullPath path1 = vector.findPathByName(colorRegResults.get(i).getName());
+        for(MRegion res: colorRegResults) {
+            VectorDrawableCompat.VFullPath path1 = vector.findPathByName(res.getName());
             //Log.i("oneORegsColored!!!",colorRegResults.get(i).getName());
-            path1.setFillColor(Color.RED);
+            int r= findColorShade(res.getGroup(), answer);
+            path1.setFillColor(r);
         }
 
+    }
+
+    private int findColorShade(String group, String answer) {
+        DijkstraShortestPath<String, DefaultEdge> dijkstraAlg = new DijkstraShortestPath<>(Murdle2.prox);
+        Log.i("whatDijkSees", group+ " "+answer);
+        //Log.i("vertexes", Murdle2.prox.vertexSet().toString());
+        int distance = dijkstraAlg.getPath(group, answer).getLength();
+        Log.i("howfarwasguess",distance+ " far");
+        switch (distance){
+            case 0: return res.getColor(R.color.pink);
+            case 1: return res.getColor(R.color.red1);
+            case 2: return res.getColor(R.color.red2);
+            case 3: return res.getColor(R.color.red3);
+            case 4: return res.getColor(R.color.red4);
+            default: return res.getColor(R.color.red5);
+        }
+        //return Color.RED;
     }
 
     public int getCurrDrawable() {

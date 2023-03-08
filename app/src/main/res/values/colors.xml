@@ -17,5 +17,11 @@
     <color name="darkPurp">#3035e7</color>
     <color name="lightwhite">#51ffffff</color>
 
+    <color name="red1">#E87AC9</color>
+    <color name="red2">#E2648E</color>
+    <color name="red3">#DC4C4C</color>
+    <color name="red4">#AE2424</color>
+    <color name="red5">#840000</color>
+
 
 </resources>

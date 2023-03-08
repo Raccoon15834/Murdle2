@@ -38,6 +38,15 @@ import io.realm.RealmConfiguration;
 
 
 // realm app id - applicationfx-tgpga
+//todo fix alpha of background
+//fade in color, fade out peel/cover
+// get colors of muscles fixed, then add to guessfrags
+//remove top bar
+//nav bar, cool transition to profile, and stats
+//start profile with realm, make sure things save
+//add users stats to a beautiful log
+//directions gifs scrollview
+//change guessfrag to recycler view
 public class MainActivity extends AppCompatActivity {
     private Realm realm;
     ImageView gameWindow;
@@ -48,9 +57,8 @@ public class MainActivity extends AppCompatActivity {
     Drawable backSup, backDeep, frontSup, frontDeep,
             backLSup, backLDeep, frontLSup, frontLDeep;
     float orix, oriy, orix2, oriy2;
-    FragmentManager ftm; //todo FIX THIS, and send manager not ft
+    FragmentManager ftm;
     Animation inL, outL, inR, outR, inT, outT, inB, outB, outbkg, inbkg;
-    //todo change this based on testing phase
     int MINCLICKDIST = 50, MINSWIPEDIST = 230;
     @SuppressLint("ClickableViewAccessibility")
     //can try making it accessible for visually impaired individuals,
@@ -302,6 +310,7 @@ public class MainActivity extends AppCompatActivity {
         });
         v.startAnimation(out);
         gameWindowBkg.startAnimation(outbkg);
+
     }
 
 }

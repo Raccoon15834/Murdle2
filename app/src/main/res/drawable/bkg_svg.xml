@@ -16,8 +16,9 @@
                     android:tileMode="clamp" android:type="linear">
                     <item android:color="#FF061445" android:offset="0"/>
                     <item android:color="#FF024066" android:offset="0.3"/>
-                    <item android:color="#FF061445" android:offset="0.6"/>
-                    <item android:color="#FF532656" android:offset="0.8"/>
+                    <item android:color="#0A2B6E" android:offset="0.6"/>
+                    <item android:color="#033B5E" android:offset="0.75"/>
+                    <item android:color="#033B5E" android:offset="0.8"/>
                     <item android:color="#FF061445" android:offset="1"/>
                 </gradient>
             </aapt:attr>
