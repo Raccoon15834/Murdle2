@@ -7,10 +7,10 @@
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:src="@drawable/circle2"
-        android:transitionName="circ"
+        android:id="@+id/bkg"
         android:scaleType="centerCrop"
-    />
+        android:background="@color/thevoid"
+        />
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -18,17 +18,33 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:background="@color/white"
+        android:id="@+id/clickTransition">
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/thevoid" />
         <Button
             android:layout_height="wrap_content"
             android:layout_width="match_parent"
             android:text="stats"
-            android:id="@+id/statsBtn"/>
+            android:id="@+id/statsBtn"
+            android:layout_margin="1dp"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/thevoid" />
         <Button
             android:layout_height="wrap_content"
             android:layout_width="wrap_content"
             android:text="game play"
-            android:id="@+id/gamePlayBtn"/>
+            android:id="@+id/gamePlayBtn"
+            android:layout_margin="1dp"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/thevoid" />
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -13,5 +13,7 @@
         <item name="android:statusBarColor">@color/thevoid</item>
 <!--        <item name="theme">@android:style/Theme.NoTitleBar</item>-->
         <!-- Customize your theme here. -->
+        <item name="android:windowEnterTransition">@transition/fade</item>
+<!--        <item name="android:windowExitTransition">@transition/fade</item>-->
     </style>
 </resources>

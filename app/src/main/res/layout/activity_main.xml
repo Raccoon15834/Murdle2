@@ -78,14 +78,14 @@
     </androidx.recyclerview.widget.RecyclerView>
 
 
-    <ImageView
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:src="@drawable/circle2"
-        android:transitionName="circ"
-        android:id="@+id/circTransition"
-        />
+<!--    <ImageView-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_height="0dp"-->
+<!--        app:layout_constraintRight_toRightOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        android:src="@drawable/circle2"-->
+<!--        android:transitionName="circ"-->
+<!--        android:id="@+id/circTransition"-->
+<!--        />-->
 
 </androidx.constraintlayout.widget.ConstraintLayout>

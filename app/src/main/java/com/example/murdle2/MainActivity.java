@@ -137,8 +137,8 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent starter = new Intent(getApplicationContext(), TransitionActivity.class);
-                ActivityOptions options = ActivityOptions
-                        .makeSceneTransitionAnimation(aca, findViewById(R.id.circTransition), "circ");
+//                ActivityOptions options = ActivityOptions
+//                        .makeSceneTransitionAnimation(aca, findViewById(R.id.circTransition), "circ");
                 startActivity(starter);
             }
         });
